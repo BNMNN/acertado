@@ -1,0 +1,169 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h {
+    list-style: none;
+    padding: 0;
+    padding-top:5px;
+    background-color: #99BCBD;
+    text-align: center;
+    height: 80px;
+    font-family: arial, sans-serif;
+    border-bottom: solid 4px #4E9094;
+}
+
+#titulo{
+    margin-left:10px;
+    text-align: left;
+    font-weight:bold;
+}
+
+#menu-h li{
+    display: inline;
+    background-color: #326950;
+    justify-content: center;
+    margin: 90px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+
+#menu-h li a{
+    
+    color: #FFF;
+    padding:10px;
+    display:inline-block;
+    text-decoration: none;
+    display: inline;    
+}
+
+.conteudo{
+    margin-top:50px;
+    color:#FFF;
+    background-color:#4E9094;
+    width: 60%;
+    font-family: arial, sans-serif;
+    height: 1000px;
+    border-radius: 4px;
+    padding: 40px;
+}
+
+
+
+    #fomr1 form {
+    
+        padding: 40px;
+        float: left;
+    }
+
+    #form1 form div+div {
+        margin-top: 1em;
+    }
+
+    #form1 label {
+        /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+        display: inline-block;
+        width: 90px;
+        
+    
+    }
+
+    #form1 input,
+    textarea {
+        /* 
+Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+     Por padrão, as áreas de texto possuem a mesma fonte */
+        font: 1em sans-serif;
+
+        /* Para dar o mesmo tamanho a todos os campos de texto*/
+        width: 300px;
+        height:30px;
+        box-sizing: border-box;
+
+        /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+        border: 1px solid #999;
+        border-radius: 8px;
+    }
+
+    #form1 input:focus,
+    textarea:focus {
+        /* Para dar um pouco de destaque aos elementos ativos*/
+        border-color: #000;
+    }
+
+    #form1 textarea {
+        /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+        vertical-align: top;
+
+        /* Para dar espaço suficiente para digitar algum texto */
+        height: 5em;
+    }
+
+    #form1 button{
+        border: 1px solid #999;
+        width: 300px;
+        height:30px;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+
+        #form2 form {
+            float: right;
+        }
+    
+        #form2 form div+div {
+            margin-top: 1em;
+        }
+    
+        #form2 form label {
+            /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+            display: inline-block;
+            width: 90px;
+            
+        
+        }
+    
+        #form2 input,
+        textarea {
+            /* 
+    Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+         Por padrão, as áreas de texto possuem a mesma fonte */
+            font: 1em sans-serif;
+    
+            /* Para dar o mesmo tamanho a todos os campos de texto*/
+            width: 300px;
+            height:30px;
+            box-sizing: border-box;
+    
+            /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+            border: 1px solid #999;
+            border-radius: 8px;
+        }
+    
+        #form2 input:focus,
+        textarea:focus {
+            /* Para dar um pouco de destaque aos elementos ativos*/
+            border-color: #000;
+        }
+    
+        #form2 textarea {
+            /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+            vertical-align: top;
+    
+            /* Para dar espaço suficiente para digitar algum texto */
+            height: 5em;
+        }
+    
+        #form2 button{
+            border: 1px solid #999;
+            width: 300px;
+            height:30px;
+            box-sizing: border-box;
+            border-radius: 6px;
+        }
